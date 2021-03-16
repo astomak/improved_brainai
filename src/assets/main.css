@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+@import url("https://fonts.googleapis.com/css2?family=Hanalei&family=Kaushan+Script&family=Monoton&display=swap");
+
+body,
+html {
+  @apply m-0 p-0 w-full min-h-screen;
+}
+
+body {
+  /* background: url("../assets/bacground.jpg"); */
+  @apply bg-gradient-to-r from-pink-700 to-blue-700;
+  font-family: "Kaushan Script", cursive;
+}
+
+#tsparticles {
+  @apply fixed inset-0 z-0;
+}
+
+.font-hanalei {
+  font-family: "Hanalei", cursive;
+}
+
+.font-monoton {
+  font-family: "Monoton", cursive;
+}
+
+.font-kaushan {
+  font-family: "Kaushan Script", cursive;
+}
+
+.shadow-large {
+  box-shadow: 2px 8px 5px rgba(0, 0, 0, 0.5);
+}
+
+.inpress:active {
+  transform: translateY(6px);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+

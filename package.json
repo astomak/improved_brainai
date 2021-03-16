@@ -6,13 +6,20 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "clarifai": "^2.9.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-parallax-tilt": "^1.4.65",
+    "react-particles-js": "^3.3.0",
+    "react-scripts": "3.4.3",
+    "react-tsparticles": "^1.17.10"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "watch:tailwind": "postcss src/assets/main.css -o src/assets/tailwind.css --watch",
+    "build:tailwind": "postcss src/assets/main.css -o src/assets/tailwind.css",
+    "start:react": "react-scripts start",
+    "start": "npm-run-all --parallel watch:tailwind start:react",
+    "build": "npm run build:tailwind && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -30,5 +37,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.8.6"
   }
 }
