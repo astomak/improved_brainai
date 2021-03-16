@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/improved_brainai/static/css/main.0ddc3f83.chunk.css",
+    "main.js": "/improved_brainai/static/js/main.5d318860.chunk.js",
+    "main.js.map": "/improved_brainai/static/js/main.5d318860.chunk.js.map",
+    "runtime-main.js": "/improved_brainai/static/js/runtime-main.d214c7db.js",
+    "runtime-main.js.map": "/improved_brainai/static/js/runtime-main.d214c7db.js.map",
+    "static/js/2.a1d0551a.chunk.js": "/improved_brainai/static/js/2.a1d0551a.chunk.js",
+    "static/js/2.a1d0551a.chunk.js.map": "/improved_brainai/static/js/2.a1d0551a.chunk.js.map",
+    "index.html": "/improved_brainai/index.html",
+    "precache-manifest.70ff9fbf4916b61ccb12f0e902ebfc6d.js": "/improved_brainai/precache-manifest.70ff9fbf4916b61ccb12f0e902ebfc6d.js",
+    "service-worker.js": "/improved_brainai/service-worker.js",
+    "static/css/main.0ddc3f83.chunk.css.map": "/improved_brainai/static/css/main.0ddc3f83.chunk.css.map",
+    "static/js/2.a1d0551a.chunk.js.LICENSE.txt": "/improved_brainai/static/js/2.a1d0551a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d214c7db.js",
+    "static/js/2.a1d0551a.chunk.js",
+    "static/css/main.0ddc3f83.chunk.css",
+    "static/js/main.5d318860.chunk.js"
+  ]
+}
